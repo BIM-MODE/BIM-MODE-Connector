@@ -1,0 +1,55 @@
+{
+  "name": "bim-mode-mcp",
+  "version": "1.2.0",
+  "description": "BIM-MODE Connector MCP bridge for Autodesk Revit, AutoCAD, and Navisworks",
+  "author": "BIM-MAN Company",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BIM-MODE/BIM-MODE-Connector.git"
+  },
+  "homepage": "https://github.com/BIM-MODE/BIM-MODE-Connector#readme",
+  "bugs": {
+    "url": "https://github.com/BIM-MODE/BIM-MODE-Connector/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "revit",
+    "autocad",
+    "navisworks",
+    "bim",
+    "autodesk",
+    "bim-mode"
+  ],
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "bim-mode-mcp": "bin/bim-mode-mcp.js",
+    "bim-mode": "bin/bim-mode-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "INSTALL.md",
+    "SECURITY.md",
+    "INTEGRATED-ENGINE.md",
+    "LICENSE",
+    "LICENSE-APACHE-2.0.txt",
+    "LICENSE-DLR.txt",
+    "LICENSE-IronPython.txt",
+    "THIRD-PARTY-NOTICES.txt",
+    "policy.json",
+    "gitinstall.ps1",
+    "install.ps1",
+    "uninstall.ps1",
+    "INSTALL.bat",
+    "UNINSTALL.bat",
+    "diagnose-connection.ps1"
+  ]
+}
+

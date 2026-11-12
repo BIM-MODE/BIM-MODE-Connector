@@ -1,0 +1,31 @@
+﻿BIM-MODE Connector - third-party notices
+
+Open-source Revit tool handlers (Apache License 2.0)
+Copyright 2026 Khoa Le
+Part of the handler source under src/BimMode.Upstream (Shared plus App.cs and IconGenerator.cs) comes from an
+Apache-2.0 licensed open-source project. Full licence text: LICENSE-APACHE-2.0.txt.
+Any copyright notices present in those source files are retained. Original compatibility catalogs also
+contain tool names and schemas derived from that project.
+
+Modifications: BIM-MODE project configuration, public enumeration of native commands, Revit 2021 API
+compatibility adapters, explicit unsupported-operation responses and an updated Revit 2026 rebar handler.
+Files edited by hand identify the change. The upstream App is compiled for supporting types but its
+OnStartup is not invoked; BIM-MODE owns the ribbon, transport, approval policy, sessions, C# tool recipes and
+change-event history.
+No endorsement by any third-party vendor or by Autodesk is implied.
+Dependencies retain their NuGet licenses (Microsoft Roslyn, System.Text.Json,
+Newtonsoft.Json, Microsoft.Data.Sqlite, SQLitePCLRaw, PolySharp and framework support
+libraries). API reference packages are build dependencies; Revit supplies its APIs.
+
+Bundled IronPython 3.4.2 and Dynamic Language Runtime 1.3.5:
+Copyright (c) .NET Foundation and Contributors. Apache-2.0.
+https://github.com/IronLanguages/ironpython3
+https://github.com/IronLanguages/dlr
+Full notices are included in LICENSE-IronPython.txt and LICENSE-DLR.txt.
+The runtime is embedded in the BIM-MODE add-in; no separate Python/MCP service is used.
+
+Client identification logos: LobeHub Icons (MIT, Copyright 2023 LobeHub).
+License and asset sources are in UI/PlatformLogos/LICENSE and SOURCES.txt in the
+add-in distribution. The Visual Studio Code mark is sourced from Microsoft's
+official branding assets. Platform names and marks identify supported clients;
+they do not imply endorsement by their respective owners.

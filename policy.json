@@ -1,0 +1,7 @@
+{
+  "allowFullTrustCode": false,
+  "approval": "writes",
+  "readOnly": false,
+  "exposure": "code",
+  "disabledTools": []
+}

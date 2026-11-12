@@ -1,0 +1,37 @@
+﻿# Private source code, tests, and build scripts (release-only public repository)
+src/
+tests/
+pyrevit/
+_work/
+validation/
+BimModeConnector.sln
+Directory.Build.props
+build.ps1
+build-apps.ps1
+release.ps1
+
+# Build outputs and packaged archives
+obj/
+dist/
+artifacts/
+release/
+node_modules/
+*.pdb
+*.log
+*.zip
+*.dll
+*.exe
+*.nupkg
+
+# IDE, OS, and local secrets/diagnostics
+*.user
+*.suo
+.vs/
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+token.txt
+BIM-MODE-diagnosis.txt
+*.local
+local.settings.json
